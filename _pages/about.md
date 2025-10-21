@@ -8,51 +8,57 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+# About Me
 
-<span class='anchor' id='about-me'></span>
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I'm a master student from [School of Mechatronic Engineering and Automation (SMEA)](https://auto.shu.edu.cn/), [Shanghai University (SHU)](https://www.shu.edu.cn/). 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes：
 
+- Assembly Quality Control
+- Deep Reinforcement Learning
+- AI Application in Industry
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+---
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.09 - now*, Shanghai University
+  - Supervisor: Prof. Li-Lan Liu
+  - Top 3% in major, GPA: 3.8/4.0
+
+- *2019.09 - 2023.06*, Qingdao University of Science and Technology
+  - Supervisor: Prof. Chuan-Sheng Wang and Assoc. Prof. Hui-Guang Bian
+  - Top 3% in major, GPA: 3.48/5.0
+
+    
+# 📝 Publications 
+
+---
+
+### Article
+- **Song Y-T**, Sun Y-N*, Liu L-L, et al. Online Sequential Decision Making of Multi-Stage Assembly Process Parameters Based on Deep Reinforcement Learning and Its Application in Diesel Engine Production[J]. Journal of Manufacturing Systems, 2025, 82: 1252-1268. (JCR Q1, IF: 14.2) [Paper](https://www.sciencedirect.com/science/article/pii/S0278612525002110)
+- Wu J, Sun Y-N*, **Song Y-T**, et al. Uncertainty-Aware Bayesian Neural Network with SHAP Interpretability for Data-Driven Assembly Quality Prediction in Complex Manufacturing Systems[J]. Advanced Engineering Informatics, 2025, 68: 103730. (JCR Q1, IF: 9.9) [Paper](https://www.sciencedirect.com/science/article/pii/S1474034625006238)
+- **Song Y-T**, Sun Y-N*, Zhu J-Y, et al. Hyperparameter Tuning Design of Performance Indicators Prediction for Hydrogen Fuel Cells Based on Bayesian Optimisation with AIGC[J]. Journal of Engineering Design, 2025, 36(5-6): 1040-1063. (JCR Q1, IF: 3.4) [Paper](https://www.tandfonline.com/doi/full/10.1080/09544828.2024.2436968)
+
+### Conference Paper
+- Gu A-Y, Jiang W-M, Sun Y-N, **Song Y-T**, et al. Data-Driven Analysis and Prediction for Ultrafast Laser Processing by Machine Learning: A Comparison Study[J]. IFAC-PapersOnLine, 2025, 59(10): 2380-2384. [Paper](https://www.sciencedirect.com/science/article/pii/S2405896325011632?via%3Dihub)
+- **Song Y-T**, Sun Y-N*, Zhu J-Y, et al. A Multi-Class Imbalanced Learning Method Using Random Balanced Sampling for Predicting the Quality Level of Diesel Engines[C]//2024 International Conference on Automation in Manufacturing, Transportation and Logistics (ICaMaL). IEEE, 2024: 1-9. [Paper](https://ieeexplore.ieee.org/document/10919696)
+- Zhu J-Y, Sun Y-N*, **Song Y-T**, et al. Deviation Propagation Network for Key Quality Factors Identification of Complex Assembly Systems[C]//2024 International Conference on Automation in Manufacturing, Transportation and Logistics (ICaMaL). IEEE, 2024: 1-9. [Paper](https://ieeexplore.ieee.org/document/10919718)
+
+# 🎖 Honors
+
+---
+
+- **2024.11**  First class postgraduate scholarship of Shanghai University
+- **2023.06**  Shandong Excellent Graduates
+
+
+# 💬 Conferences
+
+---
+
+- *2025.07*  2025年中国机械工程学会工业大数据与智能系统分会学术年会暨第八届大数据驱动的智能制造学术会议（中国宜昌）, 优秀论文摘要
+- *2024.08*  2024 International Conference on Automation in Manufacturing, Transportation and Logistics (HongKong, China)
