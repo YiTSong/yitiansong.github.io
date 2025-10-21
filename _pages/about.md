@@ -10,8 +10,6 @@ redirect_from:
 
 # About Me
 
----
-
 I'm a master student from [School of Mechatronic Engineering and Automation (SMEA)](https://auto.shu.edu.cn/), [Shanghai University (SHU)](https://www.shu.edu.cn/). 
 
 My research interest includes：
@@ -23,8 +21,6 @@ My research interest includes：
 
 # 📖 Educations
 
----
-
 - *2023.09 - now*, Shanghai University
   - Supervisor: Prof. Li-Lan Liu
   - Top 3% in major, GPA: 3.8/4.0
@@ -35,8 +31,6 @@ My research interest includes：
 
     
 # 📝 Publications 
-
----
 
 ### Article
 - **Song Y-T**, Sun Y-N*, Liu L-L, et al. Online Sequential Decision Making of Multi-Stage Assembly Process Parameters Based on Deep Reinforcement Learning and Its Application in Diesel Engine Production[J]. Journal of Manufacturing Systems, 2025, 82: 1252-1268. (JCR Q1, IF: 14.2) [Paper](https://www.sciencedirect.com/science/article/pii/S0278612525002110)
@@ -50,7 +44,6 @@ My research interest includes：
 
 # 🎖 Honors
 
----
 
 - **2024.11**  First class postgraduate scholarship of Shanghai University
 - **2023.06**  Shandong Excellent Graduates
@@ -58,7 +51,6 @@ My research interest includes：
 
 # 💬 Conferences
 
----
 
 - *2025.07*  2025年中国机械工程学会工业大数据与智能系统分会学术年会暨第八届大数据驱动的智能制造学术会议（中国宜昌）, 优秀论文摘要
 - *2024.08*  2024 International Conference on Automation in Manufacturing, Transportation and Logistics (HongKong, China)
